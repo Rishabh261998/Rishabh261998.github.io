@@ -2,21 +2,16 @@
 main:
   - title: "Publications"
     url: /publications/
+  
+  - title: "Experience"
+    url: /experience/
 
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Projects"
+    url: /projects/
         
   - title: "Blog Posts"
-    url: /year-archive/
+    url: /posts/
     
   - title: "CV"
     url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
