@@ -13,7 +13,7 @@ name                     : &name "Rishabh Sanjay"
 description              : &description "Software Developer"
 url                      : https://rishabh261998.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Rishabh261998/rsan.github.io"
+repository               : "Rishabh261998/Rishabh261998.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Rishabh Sanjay"
   avatar           : "profile.png"
-  bio              : "Software Developer and NLP Enthusiast"
+  bio              : "Software Developer, ML and NLP Researcher"
   location         : "Jamshedpur, India"
-  employer         : "Oracle"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=7eWiyx8AAAAJ&hl=en&authuser=1&oi=ao"
   email            : "rishabh.lfs@gmail.com"
@@ -94,22 +94,22 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "https://www.facebook.com/rishabh.sanjay/"
+  facebook         : "rishabh.sanjay"
   foursquare       :
-  github           : "https://github.com/Rishabh261998"
+  github           : "Rishabh261998"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/rishabh-sanjay-13b718152/"
+  linkedin         : "rishabh-sanjay-13b718152"
   orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/RishabhSanjay26"
+  twitter          : "RishabhSanjay26"
   vine             :
   weibo            :
   xing             :
