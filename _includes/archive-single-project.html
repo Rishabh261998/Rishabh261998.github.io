@@ -35,8 +35,8 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.project_advisor %}<p class="archive__item-excerpt" itemprop="description">{{post.project_advisor}} {% endif %}
-    {% if post.start_date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.start_date}} - {{ post.end_date}}</p>{% endif %}
+    <!-- {% if post.project_advisor %}<p class="archive__item-excerpt" itemprop="description">{{post.project_advisor}} {% endif %}
+    {% if post.start_date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.start_date}} - {{ post.end_date}}</p>{% endif %} -->
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>
