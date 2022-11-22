@@ -6,7 +6,7 @@ tags:
   - 'GSoC'
 ---
 
-[![GSoC](https://beagleboard.org/blog/wp-content/uploads/2018/09/GSoC.png)]
+![GSoC](https://beagleboard.org/blog/wp-content/uploads/2018/09/GSoC.png)
 
 # How it all started?
 
