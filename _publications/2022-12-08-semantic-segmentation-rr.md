@@ -5,6 +5,7 @@ permalink: /publication/2022-12-08-semantic-segmentation-rr
 date: 2022-12-08
 venue: 'NLLP 2022(EMNLP)'
 paperurl: 'https://arxiv.org/pdf/2112.01836.pdf'
+excerpt: ''
 ---
 
 [Download paper here](https://arxiv.org/pdf/2112.01836.pdf)
