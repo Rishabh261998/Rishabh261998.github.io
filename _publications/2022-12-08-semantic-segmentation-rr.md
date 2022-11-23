@@ -1,16 +1,14 @@
 ---
-title: "ILDC for CJPE: Indian Legal Documents Corpus for Court Judgment Prediction and Explanation"
+title: "Semantic segmentation of legal documents via rhetorical roles"
 collection: publications
-permalink: /publication/2021-08-01-ildc-cjpe
-date: 2021-08-01
-venue: 'ACL 2021'
-paperurl: 'https://aclanthology.org/2021.acl-long.313.pdf'
-citation: 'ILDC for CJPE: Indian Legal Documents Corpus for Court Judgment Prediction and Explanation (Malik et al., ACL-IJCNLP 2021)'
+permalink: /publication/2022-12-08-semantic-segmentation-rr
+date: 2022-12-08
+venue: 'NLLP 2022(EMNLP)'
+paperurl: 'https://arxiv.org/pdf/2112.01836.pdf'
 ---
 
-[Download paper here](https://aclanthology.org/2021.acl-long.313.pdf)
+[Download paper here](https://arxiv.org/pdf/2112.01836.pdf)
 
-[Code Available here]
-(https://github.com/Exploration-Lab/CJPE)
+[Code Available Here](https://github.com/Exploration-Lab/Rhetorical-Roles)
 
-Recommended citation: Vijit Malik, Rishabh Sanjay, Shubham Kumar Nigam, Kripabandhu Ghosh, Shouvik Kumar Guha, Arnab Bhattacharya, and Ashutosh Modi. 2021. ILDC for CJPE: Indian Legal Documents Corpus for Court Judgment Prediction and Explanation. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 4046–4062, Online. Association for Computational Linguistics.
+Recommended citation: Malik, V., Sanjay, R., Guha, S. K., Nigam, S. K., Hazarika, A., Bhattacharya, A., & Modi, A. (2021). Semantic segmentation of legal documents via rhetorical roles. arXiv preprint arXiv:2112.01836.

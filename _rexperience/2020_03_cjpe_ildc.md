@@ -1,6 +1,6 @@
 ---
 title: "Court Judgement Prediction, Explanation on Indian Supreme Court Cases"
-collection: experience
+collection: rexperience
 type: "Mentor: Prof. Ashutosh Modi and Prof. Arnab Bhattacharya"
 permalink: /rexperience/cjpe_ildc
 start_date: "March 2020"
