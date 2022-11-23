@@ -5,6 +5,7 @@ type: "Mentor: Prof. Ashutosh Modi and Prof. Arnab Bhattacharya"
 permalink: /rexperience/rhetorical_roles
 start_date: "April 2021"
 end_date: "Aug 2021" 
+excerpt: ''
 ---
 
 - Created a new corpus of 100 legal cases, annotated with rhetorical role labels. This is the largest RR corpus.

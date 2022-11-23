@@ -5,6 +5,7 @@ type: "Mentor: Prof. Ashutosh Modi and Prof. Arnab Bhattacharya"
 permalink: /rexperience/cjpe_ildc
 start_date: "March 2020"
 end_date: "June 2020" 
+excerpt: ''
 ---
 
 - Created a corpus of 32,000 legal jugdements and tackled the open research problem of Court Judgement Prediction.

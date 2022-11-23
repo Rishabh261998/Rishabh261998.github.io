@@ -5,6 +5,7 @@ type: "Research Intern : Ohio State University Mentor: Prof. Sun Huan"
 permalink: /rexperience/wikihow_project
 start_date: "May 2022"
 end_date: "Present" 
+excerpt: ''
 ---
 
 - Analysed a WikiHow FAQ QA dataset for the Cooking and DIY category.

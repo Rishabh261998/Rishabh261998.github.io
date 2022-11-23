@@ -5,6 +5,7 @@ type: "Course Project: CS771, Mentor: Piyush Rai"
 permalink: /rexperience/hahackathon_detecting_humor
 start_date: "Sep 2020"
 end_date: "Dec 2020" 
+excerpt: ''
 ---
 
 - Developed and trained various machine learning models for Humor classification.

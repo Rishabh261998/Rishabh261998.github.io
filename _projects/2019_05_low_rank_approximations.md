@@ -5,6 +5,7 @@ type: "Mentor: Sumit Ganguly, IIT Kanpur"
 permalink: /projects/low_rank_approximations
 start_date: "May 2019"
 end_date: "June 2019" 
+excerpt: ''
 ---
 
 - Implemented sampling algorithms for matrix approximations and low rank approximation of matrix.

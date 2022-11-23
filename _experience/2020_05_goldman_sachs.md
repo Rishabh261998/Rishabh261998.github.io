@@ -4,7 +4,8 @@ collection: experience
 type: "Summer Analyst, IMD Core Engineering Division"
 permalink: /experience/goldman_sachs
 start_date: "May 2020"
-end_date: "June 2020" 
+end_date: "June 2020"
+excerpt: '' 
 ---
 
 - Created a Horizontally Scalable and Distributed Reconciliation System in Java for trading data.
