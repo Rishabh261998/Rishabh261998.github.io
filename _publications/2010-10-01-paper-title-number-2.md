@@ -1,15 +1,16 @@
 ---
-title: "Paper Title Number 2"
+title: "Semantic segmentation of legal documents via rhetorical roles"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2022-12-08-semantic-segmentation-rr
+date: 2022-12-08
+venue: 'NLLP 2022(EMNLP)'
+paperurl: 'https://arxiv.org/pdf/2112.01836.pdf'
+citation: 'Malik, V., Sanjay, R., Guha, S. K., Nigam, S. K., Hazarika, A., Bhattacharya, A., & Modi, A. (2021). Semantic segmentation of legal documents via rhetorical roles. arXiv preprint arXiv:2112.01836.'
 ---
-This paper is about the number 2. The number 3 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+[Download paper here](https://arxiv.org/pdf/2112.01836.pdf)
 
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+[Code Available Here]
+(https://github.com/Exploration-Lab/Rhetorical-Roles)
+
+Recommended citation: Malik, V., Sanjay, R., Guha, S. K., Nigam, S. K., Hazarika, A., Bhattacharya, A., & Modi, A. (2021). Semantic segmentation of legal documents via rhetorical roles. arXiv preprint arXiv:2112.01836.
