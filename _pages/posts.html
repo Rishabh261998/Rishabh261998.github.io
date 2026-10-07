@@ -1,11 +1,27 @@
 ---
 title: "Blog"
-subtitle: "Longer-form notes. The 2021 series documents my Google Summer of Code work on ArviZ; newer writing on voice-agent testing lives on the Cekura blog."
+subtitle: "Everything I have written: posts for the Cekura blog, my Google Summer of Code series on Medium, and the posts hosted on this site."
 permalink: /posts/
 redirect_from:
   - /blog/
   - /year-archive/
 ---
+<h2>Writing elsewhere</h2>
+<ul class="writing">
+  {% for w in site.data.writing %}
+  <li class="writing__item">
+    <a href="{{ w.url }}" target="_blank" rel="noopener">
+      <span>
+        <span class="writing__title">{{ w.title }}</span>
+        <span class="writing__meta">{{ w.source }} · {{ w.date }}</span>
+      </span>
+      {% include icon.html name="external" %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>Posts on this site</h2>
 <ul class="post-list">
   {% for post in site.posts %}
   <li class="post-list__item">
@@ -19,4 +35,3 @@ redirect_from:
   </li>
   {% endfor %}
 </ul>
-<p style="margin-top:28px"><a class="section__link" href="{{ '/#writing' | relative_url }}">See external writing on the home page {% include icon.html name="arrow" %}</a></p>

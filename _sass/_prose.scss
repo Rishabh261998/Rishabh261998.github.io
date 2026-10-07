@@ -44,3 +44,7 @@
 .prose .post-list a, .prose .btn, .prose .section__link { text-decoration: none; }
 .prose .post-list a:hover { text-decoration: none; }
 .prose .section__link:hover { text-decoration: underline; }
+.prose .writing a { text-decoration: none; }
+.prose .writing a:hover { text-decoration: none; }
+.prose ul.writing, .prose ul.post-list { padding-left: 0; }
+.prose .writing li + li, .prose .post-list li + li { margin-top: 0; }

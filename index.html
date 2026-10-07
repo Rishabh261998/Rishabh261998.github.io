@@ -205,13 +205,14 @@ redirect_from:
     <div class="section__head">
       <div>
         <p class="eyebrow">Writing</p>
-        <h2 class="section__title">Notes from the field.</h2>
-        <p class="section__intro">Guides on testing, red-teaming and monitoring conversational agents for the Cekura blog, plus my Google Summer of Code series.</p>
+        <h2 class="section__title">Recent writing.</h2>
+        <p class="section__intro">A few recent pieces from the Cekura blog. Everything else, including my Google Summer of Code series, is on the blog page.</p>
       </div>
-      <a class="section__link" href="{{ '/posts/' | relative_url }}">Blog on this site {% include icon.html name="arrow" %}</a>
+      <a class="section__link" href="{{ '/posts/' | relative_url }}">All writing {% include icon.html name="arrow" %}</a>
     </div>
+    {% assign cekura_posts = site.data.writing | where: "source", "Cekura blog" %}
     <ul class="writing">
-      {% for w in site.data.writing %}
+      {% for w in cekura_posts limit: 4 %}
       <li class="writing__item" data-reveal>
         <a href="{{ w.url }}" target="_blank" rel="noopener">
           <span>
