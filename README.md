@@ -11,7 +11,6 @@ Almost everything on the home page is data-driven, so updates rarely touch HTML:
 | What | File |
 | --- | --- |
 | Name, role, location, links, resume path | `_config.yml` (`author:` block) |
-| Hero stats | `_data/highlights.yml` |
 | Work experience | `_data/experience.yml` |
 | Research projects | `_data/research.yml` |
 | Publications | `_data/publications.yml` |

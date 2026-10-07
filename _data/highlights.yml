@@ -1,9 +1,0 @@
-# Quick facts shown under the hero.
-- value: "3"
-  label: "research papers · ACL 2021, EMNLP 2022, one under review at ICLR"
-- value: "3.9 / 4"
-  label: "GPA · MS in Computer Science, Purdue University"
-- value: "GSoC '21"
-  label: "open-source contributor to ArviZ (NumFOCUS)"
-- value: "1800+"
-  label: "Codeforces rating · competitive programming"
