@@ -1,0 +1,296 @@
+---
+layout: default
+permalink: /
+redirect_from:
+  - /about/
+  - /about.html
+---
+{%- assign a = site.author -%}
+
+<section class="hero" id="top">
+  <div class="container hero__inner">
+    <div class="hero__text">
+      <p class="eyebrow">Founding AI Engineer · Cekura (YC F24) · San Francisco</p>
+      <h1 class="hero__title">Hi, I'm Rishabh. I build the <em>simulation &amp; evaluation</em> systems that make voice AI agents reliable.</h1>
+      <p class="hero__lede">
+        At <strong>Cekura</strong> I own the stack that stress-tests voice and chat agents before and after they ship: agentic scenario generation, simulation pipelines, evaluation metrics and the alerts that catch failures in production. I hold an <strong>MS in Computer Science from Purdue</strong> (2025) and a <strong>BS from IIT Kanpur</strong>, and my research spans transformer memorization capacity and Legal NLP, with papers at ACL and EMNLP.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="{{ a.resume | relative_url }}" target="_blank" rel="noopener">{% include icon.html name="file" %} Download resume</a>
+        <a class="btn" href="mailto:{{ a.email }}">{% include icon.html name="mail" %} Email me</a>
+        <a class="btn" href="{{ a.linkedin }}" target="_blank" rel="noopener">{% include icon.html name="linkedin" %} LinkedIn</a>
+        <a class="btn" href="{{ a.github }}" target="_blank" rel="noopener">{% include icon.html name="github" %} GitHub</a>
+      </div>
+      <ul class="hero__facts">
+        <li>{% include icon.html name="pin" %} San Francisco, California</li>
+        <li>{% include icon.html name="scholar" %} MS CS, Purdue '25 · BS, IIT Kanpur '21</li>
+        <li>{% include icon.html name="spark" %} Previously Oracle · GSoC @ ArviZ · Goldman Sachs</li>
+      </ul>
+    </div>
+    <div class="hero__photo">
+      <img src="{{ a.avatar | relative_url }}" alt="Portrait of Rishabh Sanjay" width="520" height="520" fetchpriority="high">
+      <span class="hero__badge"><span class="status">Open to conversations</span></span>
+    </div>
+  </div>
+  <div class="container">
+    <ul class="highlights" aria-label="Highlights">
+      {% for h in site.data.highlights %}
+      <li class="highlight" data-reveal>
+        <span class="highlight__value">{{ h.value }}</span>
+        <span class="highlight__label">{{ h.label }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <div class="section__head">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2 class="section__title">Engineer by trade, researcher by habit.</h2>
+      </div>
+    </div>
+    <div class="about">
+      <div class="about__text">
+        <p>I'm a Founding AI Engineer at <a href="https://www.cekura.ai" target="_blank" rel="noopener">Cekura</a>, where we build the testing and observability platform for conversational AI. My corner of the product is everything needed to run a simulation and judge it: generating realistic scenarios and personas from an agent's prompt and tools, running thousands of simulated calls with LLM-driven testers, scoring each conversation with evaluation metrics, and optimizing those metrics against customer feedback. Along the way I've shipped an end-of-call algorithm that cut bad hang-ups to under 1% in production and red-teaming flows that probe what an agent should never say.</p>
+        <p>Before Cekura I finished my MS in Computer Science at <a href="https://www.cs.purdue.edu/" target="_blank" rel="noopener">Purdue University</a> (2023–2025, GPA 3.9), where I took the deep end of the ML catalogue: NLP, deep learning, large language models, reasoning in LLMs and LLM alignment. There I worked with <a href="https://asaparov.org/" target="_blank" rel="noopener">Prof. Abulhair Saparov</a> on how much factual information a transformer can actually store, work that is currently under review at ICLR.</p>
+        <p>I graduated from <a href="https://www.iitk.ac.in/" target="_blank" rel="noopener">IIT Kanpur</a> in 2021 with a BS in Mathematics and Scientific Computing and a minor in Machine Learning. Under <a href="https://ashutosh-modi.github.io/" target="_blank" rel="noopener">Prof. Ashutosh Modi</a> and <a href="https://www.cse.iitk.ac.in/users/arnabb/" target="_blank" rel="noopener">Prof. Arnab Bhattacharya</a> I co-authored two Legal AI papers (ACL 2021 and EMNLP 2022) on predicting and explaining court judgments and on segmenting legal documents. I then spent a year as a software engineer at Oracle, contributed Bayesian visualization plots to ArviZ through Google Summer of Code, and interned at Goldman Sachs.</p>
+        <p>Deep nets still drive me a little crazy, in the good way. I care about systems that are measurably correct, which is why I keep ending up at the intersection of LLM engineering and evaluation. Outside work I solve puzzles, binge anime, play multiplayer games, and pick up a bat or racquet for cricket, table tennis and badminton. I also used to grind competitive programming and hold a 1800+ rating on Codeforces.</p>
+      </div>
+      <aside class="about__aside">
+        <div class="aside-card">
+          <h3>Currently</h3>
+          <ul>
+            <li>{% include icon.html name="spark" %}<span><strong>Founding AI Engineer</strong> at Cekura, building voice-agent simulation and evaluation</span></li>
+            <li>{% include icon.html name="pin" %}<span>Based in <strong>San Francisco, CA</strong></span></li>
+            <li>{% include icon.html name="file" %}<span>Paper on transformer memorization capacity <strong>under review at ICLR</strong></span></li>
+          </ul>
+        </div>
+        <div class="aside-card">
+          <h3>Interests</h3>
+          <ul class="chips" style="display:flex">
+            <li class="chip chip--accent">LLM agents</li>
+            <li class="chip chip--accent">Voice AI</li>
+            <li class="chip chip--accent">Evaluation &amp; simulation</li>
+            <li class="chip chip--accent">Scaling laws</li>
+            <li class="chip chip--accent">NLP</li>
+            <li class="chip chip--accent">Legal AI</li>
+            <li class="chip chip--accent">Reasoning in LLMs</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section__head">
+      <div>
+        <p class="eyebrow">Experience</p>
+        <h2 class="section__title">Where I've worked.</h2>
+      </div>
+      <a class="section__link" href="{{ a.resume | relative_url }}" target="_blank" rel="noopener">Full resume {% include icon.html name="arrow" %}</a>
+    </div>
+    <ol class="timeline">
+      {% for job in site.data.experience %}
+      <li class="timeline__item{% if job.current %} timeline__item--current{% endif %}">
+        <article class="card job" data-reveal>
+          <div class="job__head">
+            <div>
+              <h3 class="job__role">{{ job.role }}</h3>
+              <div class="job__company">{% if job.url %}<a href="{{ job.url }}" target="_blank" rel="noopener">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %} · {{ job.location }}</div>
+            </div>
+            <span class="job__dates">{{ job.start }} — {{ job.end }}</span>
+          </div>
+          <p class="job__summary">{{ job.summary }}</p>
+          <ul class="job__bullets">
+            {% for b in job.bullets %}<li>{{ b }}</li>{% endfor %}
+          </ul>
+          <ul class="chips" aria-label="Technologies">
+            {% for t in job.tags %}<li class="chip">{{ t }}</li>{% endfor %}
+          </ul>
+        </article>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="research">
+  <div class="container">
+    <div class="section__head">
+      <div>
+        <p class="eyebrow">Research</p>
+        <h2 class="section__title">Questions I've chased.</h2>
+        <p class="section__intro">From how transformers store facts to how machines read the law.</p>
+      </div>
+      <a class="section__link" href="#publications">Publications {% include icon.html name="arrow" %}</a>
+    </div>
+    <div class="research-grid">
+      {% for r in site.data.research %}
+      <article class="card research-card{% if r.featured %} research-card--featured{% endif %}" data-reveal>
+        <div class="research-card__head">
+          {% if r.status %}<span class="status{% if r.status contains 'review' %} status--review{% endif %}">{{ r.status }}</span>{% endif %}
+          <span class="research-card__org">{{ r.org }} · {{ r.mentor }} · {{ r.start }} — {{ r.end }}</span>
+        </div>
+        <h3 class="card__title">{{ r.title }}</h3>
+        <p class="card__text">{{ r.summary }}</p>
+        <ul class="research-card__bullets">
+          {% for b in r.bullets %}<li>{{ b }}</li>{% endfor %}
+        </ul>
+        <ul class="chips" aria-label="Methods">
+          {% for t in r.tags %}<li class="chip">{{ t }}</li>{% endfor %}
+        </ul>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="publications">
+  <div class="container">
+    <div class="section__head">
+      <div>
+        <p class="eyebrow">Publications</p>
+        <h2 class="section__title">Peer-reviewed work.</h2>
+      </div>
+      <a class="section__link" href="{{ a.scholar }}" target="_blank" rel="noopener">Google Scholar {% include icon.html name="external" %}</a>
+    </div>
+    <ol class="pubs">
+      {% for p in site.data.publications %}
+      <li class="card pub" data-reveal>
+        <span class="pub__year">{{ p.year }}</span>
+        <div>
+          <h3 class="pub__title">{{ p.title }}</h3>
+          <p class="pub__authors">{{ p.authors | replace: "Rishabh Sanjay", "<strong>Rishabh Sanjay</strong>" }}</p>
+          <p class="pub__venue">{{ p.venue }}</p>
+          <ul class="links">
+            {% if p.paper %}<li><a href="{{ p.paper }}" target="_blank" rel="noopener">{% include icon.html name="file" %} Paper</a></li>{% endif %}
+            {% if p.arxiv %}<li><a href="{{ p.arxiv }}" target="_blank" rel="noopener">{% include icon.html name="external" %} arXiv</a></li>{% endif %}
+            {% if p.code %}<li><a href="{{ p.code }}" target="_blank" rel="noopener">{% include icon.html name="code" %} Code</a></li>{% endif %}
+          </ul>
+        </div>
+      </li>
+      {% endfor %}
+      <li class="card pub" data-reveal>
+        <span class="pub__year">2026</span>
+        <div>
+          <h3 class="pub__title">Information capacity of transformers: how memorization scales with width and depth</h3>
+          <p class="pub__authors">with Prof. Abulhair Saparov and collaborators, Purdue University</p>
+          <p class="pub__venue">Under double-blind review at ICLR. Details to follow once the review completes.</p>
+          <span class="status status--review">Under review</span>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section__head">
+      <div>
+        <p class="eyebrow">Projects</p>
+        <h2 class="section__title">Things I've built.</h2>
+        <p class="section__intro">Coursework and side projects from Purdue and IIT Kanpur, from distributed systems to cryptanalysis.</p>
+      </div>
+      <a class="section__link" href="{{ a.github }}" target="_blank" rel="noopener">GitHub {% include icon.html name="external" %}</a>
+    </div>
+    <div class="grid">
+      {% for p in site.data.projects %}
+      <article class="card" data-reveal>
+        <h3 class="card__title">{% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+        <p class="card__meta">{{ p.org }} · {{ p.period }}</p>
+        <p class="card__text">{{ p.description }}</p>
+        <ul class="chips">{% for t in p.tags %}<li class="chip">{{ t }}</li>{% endfor %}</ul>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="writing">
+  <div class="container">
+    <div class="section__head">
+      <div>
+        <p class="eyebrow">Writing</p>
+        <h2 class="section__title">Notes from the field.</h2>
+        <p class="section__intro">Guides on testing, red-teaming and monitoring conversational agents for the Cekura blog, plus my Google Summer of Code series.</p>
+      </div>
+      <a class="section__link" href="{{ '/posts/' | relative_url }}">Blog on this site {% include icon.html name="arrow" %}</a>
+    </div>
+    <ul class="writing">
+      {% for w in site.data.writing %}
+      <li class="writing__item" data-reveal>
+        <a href="{{ w.url }}" target="_blank" rel="noopener">
+          <span>
+            <span class="writing__title">{{ w.title }}</span>
+            <span class="writing__meta">{{ w.source }} · {{ w.date }}</span>
+          </span>
+          {% include icon.html name="external" %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="skills">
+  <div class="container">
+    <div class="section__head">
+      <div>
+        <p class="eyebrow">Skills</p>
+        <h2 class="section__title">Toolbox.</h2>
+      </div>
+    </div>
+    <div class="skills">
+      {% for s in site.data.skills %}
+      <div class="skills__row">
+        <div class="skills__group">{{ s.group }}</div>
+        <ul class="chips">{% for i in s.items %}<li class="chip">{{ i }}</li>{% endfor %}</ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="education">
+  <div class="container">
+    <div class="section__head">
+      <div>
+        <p class="eyebrow">Education</p>
+        <h2 class="section__title">Where I studied.</h2>
+      </div>
+    </div>
+    <div class="edu-grid">
+      {% for e in site.data.education %}
+      <article class="card edu" data-reveal>
+        <h3 class="edu__school"><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.school }}</a></h3>
+        <p class="edu__degree">{{ e.degree }}</p>
+        <p class="edu__meta">{{ e.period }} · {{ e.location }}</p>
+        <p class="edu__gpa">{{ e.gpa }}</p>
+        <ul class="chips" aria-label="Coursework">{% for c in e.coursework %}<li class="chip">{{ c }}</li>{% endfor %}</ul>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact" data-reveal>
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2 class="contact__title">Let's talk about agents, evals, or research.</h2>
+        <p class="contact__text">I'm always happy to chat about voice AI, LLM evaluation, scaling laws, or opportunities where rigorous ML engineering matters. The fastest way to reach me is email.</p>
+      </div>
+      <div class="contact__actions">
+        <a class="btn btn--primary" href="mailto:{{ a.email }}">{% include icon.html name="mail" %} {{ a.email }}</a>
+        <a class="btn" href="{{ a.linkedin }}" target="_blank" rel="noopener">{% include icon.html name="linkedin" %} Connect on LinkedIn</a>
+        <a class="btn" href="{{ a.resume | relative_url }}" target="_blank" rel="noopener">{% include icon.html name="file" %} Resume (PDF)</a>
+      </div>
+    </div>
+  </div>
+</section>

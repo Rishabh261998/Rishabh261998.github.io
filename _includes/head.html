@@ -1,21 +1,61 @@
-{% include base_path %}
-
+{%- assign page_title = page.title | default: site.title -%}
+{%- if page.url == "/" -%}{%- assign full_title = site.title | append: " · " | append: site.author.role -%}{%- else -%}{%- assign full_title = page_title | append: " · " | append: site.title -%}{%- endif -%}
+{%- assign page_description = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 300 -%}
 <meta charset="utf-8">
-
-{% include seo.html %}
-
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ full_title }}</title>
+<meta name="description" content="{{ page_description | escape }}">
+<meta name="author" content="{{ site.author.name }}">
+<link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ full_title | escape }}">
+<meta property="og:description" content="{{ page_description | escape }}">
+<meta property="og:url" content="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+<meta property="og:image" content="{{ site.author.avatar | absolute_url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ full_title | escape }}">
+<meta name="twitter:description" content="{{ page_description | escape }}">
+<meta name="twitter:image" content="{{ site.author.avatar | absolute_url }}">
+<meta name="theme-color" content="#0f1117" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)">
+<link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/images/profile.jpg' | relative_url }}">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }} · Blog" href="{{ '/feed.xml' | relative_url }}">
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  (function () {
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
 </script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
-
-<meta http-equiv="cleartype" content="on">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author.name }}",
+  "jobTitle": "Founding AI Engineer",
+  "worksFor": { "@type": "Organization", "name": "Cekura", "url": "https://www.cekura.ai" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Purdue University" },
+    { "@type": "CollegeOrUniversity", "name": "Indian Institute of Technology Kanpur" }
+  ],
+  "address": { "@type": "PostalAddress", "addressLocality": "San Francisco", "addressRegion": "CA", "addressCountry": "US" },
+  "email": "mailto:{{ site.author.email }}",
+  "image": "{{ site.author.avatar | absolute_url }}",
+  "url": "{{ site.url }}",
+  "sameAs": [
+    "{{ site.author.github }}",
+    "{{ site.author.linkedin }}",
+    "{{ site.author.scholar }}",
+    "{{ site.author.twitter }}"
+  ]
+}
+</script>
+{% endif %}

@@ -1,0 +1,8 @@
+- group: "Voice & LLM systems"
+  items: ["LLM agents & tool calling", "Scenario generation", "Simulation pipelines", "Evaluation metrics", "Red-teaming", "RAG", "LLM fine-tuning", "Prompt optimization", "OpenAI", "Gemini", "Vapi", "Deepgram", "LangChain", "Claude Code"]
+- group: "Machine learning"
+  items: ["PyTorch", "TensorFlow", "HuggingFace", "Transformers", "NLP", "Scaling laws", "Explainable AI", "GNNs", "Diffusion models", "NumPy", "Pandas", "scikit-learn"]
+- group: "Languages"
+  items: ["Python", "Java", "C / C++", "SQL", "Bash", "MATLAB"]
+- group: "Infrastructure"
+  items: ["AWS", "GCP", "Docker", "Kubernetes", "Kafka", "MongoDB", "CUDA", "MPI", "Git", "Linux", "Pytest"]

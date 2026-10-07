@@ -1,0 +1,14 @@
+- school: "Purdue University"
+  url: "https://www.cs.purdue.edu/"
+  degree: "Master of Science in Computer Science"
+  period: "Aug 2023 – May 2025"
+  location: "West Lafayette, IN"
+  gpa: "GPA 3.9 / 4"
+  coursework: ["Natural Language Processing", "Deep Learning", "Large Language Models", "Reasoning in LLMs", "LLM Alignment", "Statistical Machine Learning", "Data Mining", "Compilers & Programming Systems", "Parallel Computing"]
+- school: "Indian Institute of Technology Kanpur"
+  url: "https://www.iitk.ac.in/"
+  degree: "Bachelor of Science in Mathematics and Scientific Computing"
+  period: "Jul 2017 – May 2021"
+  location: "Kanpur, India"
+  gpa: "GPA 8.5 / 10 · Minor in Machine Learning & Applications (10 / 10)"
+  coursework: ["Introduction to Machine Learning", "Probabilistic Inference", "Data Structures & Algorithms", "Linear Algebra", "Probability & Statistics", "Real Analysis", "Time Series Analysis", "Cryptography"]

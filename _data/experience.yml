@@ -1,0 +1,53 @@
+- company: "Cekura"
+  url: "https://www.cekura.ai"
+  role: "Founding AI Engineer"
+  location: "San Francisco, CA"
+  start: "Jul 2025"
+  end: "Present"
+  current: true
+  tags: ["Python", "LLMs", "OpenAI", "Gemini", "Vapi", "Deepgram", "Claude Code"]
+  summary: "Cekura (YC F24) is the testing and observability platform for voice and chat AI agents. I own the stack that simulates real customers against an agent and grades what happened: scenario generation, simulation pipelines, evaluation metrics and the agents that optimize all three."
+  bullets:
+    - "Architected an agentic scenario-generation system that turns an agent's prompt, tools and knowledge base into realistic test conversations covering tool-call flows, edge cases and KB-grounded Q&A, lifting scenario accuracy by 20–25%."
+    - "Engineered a feedback-driven conversational refinement agent that improves scenarios through structured tool-calling and LLM reasoning, so customers iterate on tests in minutes instead of hours."
+    - "Optimized the simulation pipeline for a 15% accuracy gain and a 50% latency reduction, and shipped an AI-powered end-of-call algorithm that cut premature or incorrect hang-ups to under 1% in production."
+    - "Built agent-level evaluation metrics for intent alignment, response relevance, conversational consistency and interruption handling, then automated metric creation and doubled the speed of metric optimization."
+    - "Developed customizable smart alerts that detect agent failures against client-defined metrics, enabling rapid diagnosis and recovery, plus red-teaming flows that probe what an agent should never say."
+    - "Scaled production voice-AI systems that stress-tested 5M+ agent minutes, contributing to a 4× reduction in customer churn and 4× ARR growth in 8 months."
+
+- company: "Oracle"
+  url: "https://www.oracle.com"
+  role: "Software Engineer, Fusion HCM Development"
+  location: "Hyderabad, India"
+  start: "Jul 2021"
+  end: "Sep 2022"
+  tags: ["Java", "Oracle ADF", "REST", "SQL", "HTML"]
+  summary: "Full-stack development on Oracle Journeys, the guided-workflow product inside Oracle Fusion HCM."
+  bullets:
+    - "Engineered the UI and Java logic for the Advanced Task and Survey Task features with full CRUD capabilities."
+    - "Developed RESTful web services for Oracle Journeys with a focus on asynchronous operations and regression-tested stability."
+    - "Tested and resolved customer bugs and configuration issues in sandbox environments across 5 releases."
+
+- company: "Google Summer of Code · ArviZ (NumFOCUS)"
+  url: "https://github.com/arviz-devs/arviz"
+  role: "Open-source Developer"
+  location: "Remote"
+  start: "May 2021"
+  end: "Aug 2021"
+  tags: ["Python", "Matplotlib", "Bokeh", "Pytest"]
+  summary: "Added new Bayesian visualization plots to ArviZ, the exploratory analysis library for Bayesian models."
+  bullets:
+    - "Implemented Dot plots, ECDF plots and Violin plots with both Matplotlib and Bokeh backends."
+    - "Researched and implemented the underlying algorithms, wrote Pytest suites, and documented everything in a five-part blog series."
+
+- company: "Goldman Sachs"
+  url: "https://www.goldmansachs.com"
+  role: "Summer Analyst, IMD Core Engineering"
+  location: "Bangalore, India"
+  start: "May 2020"
+  end: "Jun 2020"
+  tags: ["Java", "Akka", "MongoDB", "Sybase IQ", "JUnit"]
+  summary: "Built a horizontally scalable, distributed reconciliation system for trading data."
+  bullets:
+    - "Designed an event-driven architecture for concurrent data processing, cutting reconciliation time by 70%."
+    - "Wrote MongoDB and Sybase IQ queries for reconciliation and surfaced data inconsistencies."

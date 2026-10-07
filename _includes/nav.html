@@ -1,0 +1,26 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Home">
+      <span class="brand__mark" aria-hidden="true">RS</span>
+      <span class="brand__name">Rishabh Sanjay</span>
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul class="site-nav__list">
+        {% for link in site.data.navigation.main %}
+        <li><a class="site-nav__link" href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+        {% endfor %}
+        <li><a class="btn btn--small btn--primary site-nav__cta" href="{{ site.author.resume | relative_url }}" target="_blank" rel="noopener">Resume</a></li>
+      </ul>
+    </nav>
+    <div class="site-header__actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle theme">
+        {% include icon.html name="sun" class="icon icon--sun" %}
+        {% include icon.html name="moon" class="icon icon--moon" %}
+      </button>
+      <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        {% include icon.html name="menu" class="icon icon--menu" %}
+        {% include icon.html name="close" class="icon icon--close" %}
+      </button>
+    </div>
+  </div>
+</header>

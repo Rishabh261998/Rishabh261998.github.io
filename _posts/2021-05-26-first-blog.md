@@ -2,6 +2,7 @@
 title: 'First Blog'
 date: 2021-05-26
 permalink: /posts/2021/05/First Blog/
+excerpt: "How I got selected for GSoC'21 with ArviZ under NumFOCUS, and what I set out to build over the summer."
 tags:
   - 'GSoC'
 ---
