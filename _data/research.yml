@@ -12,17 +12,6 @@
     - "Ran rigorous hyperparameter search with Bayesian optimization and deterministic full-batch training to make sure each model reached its true capacity, then compared candidate scaling forms with statistical lack-of-fit tests."
     - "Extended the analysis to structured data (symmetric and two-hop relations), skewed power-law fact distributions and a second architecture family to test generality, and identified the minimal viable dimension for resource-efficient training at a given data size."
 
-- title: "Open-domain QA on WikiHow FAQs"
-  org: "The Ohio State University"
-  mentor: "Prof. Huan Sun"
-  start: "May 2022"
-  end: "2023"
-  tags: ["RoBERTa", "T5", "BLOOM", "Question answering"]
-  summary: "Research internship on a WikiHow FAQ question-answering dataset for the Cooking and DIY categories."
-  bullets:
-    - "Studied how continued pre-training on the custom corpus affects downstream fine-tuning for question-type classification, re-ranking, machine reading comprehension and intent recognition with RoBERTa-large."
-    - "Used T5-large and BLOOM for abstractive closed-book open-domain QA on the WikiHow FAQ dataset."
-
 - title: "Semantic segmentation of legal documents via rhetorical roles"
   org: "IIT Kanpur"
   mentor: "Prof. Ashutosh Modi & Prof. Arnab Bhattacharya"

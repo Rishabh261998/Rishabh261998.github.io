@@ -4,6 +4,12 @@
   tags: ["React", "Spring Boot", "AWS", "DynamoDB", "Docker"]
   description: "Scalable storefront with login, order and inventory REST APIs, deployed on EC2 behind a load balancer and auto-scaler."
 
+- title: "Open-domain QA on WikiHow FAQs"
+  org: "Research internship, The Ohio State University (Prof. Huan Sun)"
+  period: "May 2022 – 2023"
+  tags: ["RoBERTa", "T5", "BLOOM", "Question answering"]
+  description: "Studied continued pre-training on a WikiHow FAQ corpus for question-type classification, re-ranking, reading comprehension and intent recognition, and used T5 and BLOOM for closed-book QA."
+
 - title: "Neural machine translation: Hindi → English"
   org: "CS779, IIT Kanpur"
   period: "Jan – Mar 2021"
