@@ -1,16 +1,20 @@
-# Top navigation. Anchors point at sections on the home page.
+# main links links
 main:
-  - title: "About"
-    url: "/#about"
-  - title: "Experience"
-    url: "/#experience"
-  - title: "Research"
-    url: "/#research"
+  - title: "Publications"
+    url: /publications/
+  
+  - title: "Work Experience"
+    url: /experience/
+
+  - title: "Research Experience"
+    url: /rexperience/
+
   - title: "Projects"
-    url: "/#projects"
-  - title: "Writing"
-    url: "/#writing"
-  - title: "Blog"
-    url: "/posts/"
-  - title: "Contact"
-    url: "/#contact"
+    url: /projects/
+        
+  - title: "Blog Posts"
+    url: /posts/
+    
+  - title: "CV"
+    url: /cv/
+    
