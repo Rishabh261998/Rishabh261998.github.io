@@ -6,7 +6,7 @@
   end: "Present"
   current: true
   tags: ["Python", "LLMs", "OpenAI", "Gemini", "Vapi", "Deepgram", "Claude Code"]
-  summary: "Cekura (YC F24) is the testing and observability platform for voice and chat AI agents. I own the stack that simulates real customers against an agent and grades what happened: scenario generation, simulation pipelines, evaluation metrics and the agents that optimize all three."
+  summary: "Cekura (YC F24) builds testing and observability for voice and chat AI agents. I work on scenario generation, simulation pipelines and evaluation metrics."
   bullets:
     - "Architected an agentic scenario-generation system that turns an agent's prompt, tools and knowledge base into realistic test conversations covering tool-call flows, edge cases and KB-grounded Q&A, lifting scenario accuracy by 20–25%."
     - "Engineered a feedback-driven conversational refinement agent that improves scenarios through structured tool-calling and LLM reasoning, so customers iterate on tests in minutes instead of hours."

@@ -1,7 +1,7 @@
 # Site settings
 title: "Rishabh Sanjay"
-tagline: "Founding AI Engineer · Voice AI simulation & evaluation · ML researcher"
-description: "Rishabh Sanjay is a Founding AI Engineer at Cekura (YC F24) in San Francisco, building scenario generation, simulation and evaluation systems for voice and chat AI agents. MS in Computer Science from Purdue University, BS from IIT Kanpur. Research on transformer memorization capacity and Legal NLP."
+tagline: "Machine learning engineer & researcher"
+description: "Rishabh Sanjay is a machine learning engineer and researcher in San Francisco, currently a Founding AI Engineer at Cekura. MS in Computer Science from Purdue University, BS from IIT Kanpur. Research on the information capacity of transformers, reasoning in LLMs and Legal NLP, with papers at ACL and EMNLP."
 url: "https://rishabh261998.github.io"
 baseurl: ""
 repository: "Rishabh261998/Rishabh261998.github.io"
