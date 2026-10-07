@@ -1,0 +1,47 @@
+- title: "Cloud e-commerce platform"
+  org: "Purdue University"
+  period: "Sep – Dec 2023"
+  tags: ["React", "Spring Boot", "AWS", "DynamoDB", "Docker"]
+  description: "Scalable storefront with login, order and inventory REST APIs, deployed on EC2 behind a load balancer and auto-scaler."
+
+- title: "Neural machine translation: Hindi → English"
+  org: "CS779, IIT Kanpur"
+  period: "Jan – Mar 2021"
+  tags: ["PyTorch", "Seq2Seq", "Attention"]
+  description: "Two-layer bidirectional GRU encoder with an attention decoder, trained with teacher forcing and decoded with beam search."
+
+- title: "Detecting and rating humor (SemEval-2021 HaHackathon)"
+  org: "CS771, IIT Kanpur"
+  period: "Sep – Dec 2020"
+  tags: ["BERT", "BiGRU", "Classification"]
+  description: "BERT + BiGRU humor classifier with F1 0.94 and a BERT + MLP regressor for humor ratings with RMSE 0.446."
+
+- title: "Mining Indian Supreme Court & High Court judgments"
+  org: "CS685, IIT Kanpur"
+  period: "Sep – Dec 2020"
+  tags: ["Scraping", "k-means", "Data mining"]
+  description: "Scraped 300K cases, clustered them by IPC topics and combined them with demographic data to compare crime rates across High Courts."
+
+- title: "Breaking cryptosystems"
+  org: "CS641, IIT Kanpur"
+  period: "Jan – Apr 2020"
+  tags: ["Cryptanalysis"]
+  description: "Broke substitution, substitution-permutation, DES, SASAS and weakened RSA and KECCAK ciphers."
+
+- title: "Taxi fare forecasting"
+  org: "Time Series Analysis, IIT Kanpur"
+  period: "Oct – Nov 2019"
+  tags: ["ARIMA", "Time series"]
+  description: "De-trended time-series data and fitted ARIMA models to forecast taxi fares."
+
+- title: "Low-rank matrix approximation algorithms"
+  org: "Mentor: Prof. Sumit Ganguly, IIT Kanpur"
+  period: "May – Jun 2019"
+  tags: ["Randomized algorithms", "Linear algebra"]
+  description: "Implemented length-squared sampling for matrix multiplication and the CUR method for matrix sketching."
+
+- title: "Reinforcement learning"
+  org: "Stamatics Club, IIT Kanpur"
+  period: "Nov – Dec 2018"
+  tags: ["Q-learning", "MDPs"]
+  description: "Solved Gym's Frozen Lake with value iteration and Mountain Car with MDP and Q-learning techniques."

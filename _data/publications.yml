@@ -1,0 +1,14 @@
+- title: "Semantic Segmentation of Legal Documents via Rhetorical Roles"
+  authors: "Vijit Malik, Rishabh Sanjay, Shouvik Kumar Guha, Shubham Kumar Nigam, Angshuman Hazarika, Arnab Bhattacharya, Ashutosh Modi"
+  venue: "Natural Legal Language Processing Workshop (NLLP) at EMNLP 2022"
+  year: 2022
+  paper: "https://arxiv.org/abs/2112.01836"
+  code: "https://github.com/Exploration-Lab/Rhetorical-Roles"
+
+- title: "ILDC for CJPE: Indian Legal Documents Corpus for Court Judgment Prediction and Explanation"
+  authors: "Vijit Malik, Rishabh Sanjay, Shubham Kumar Nigam, Kripabandhu Ghosh, Shouvik Kumar Guha, Arnab Bhattacharya, Ashutosh Modi"
+  venue: "ACL-IJCNLP 2021 (Long Papers)"
+  year: 2021
+  paper: "https://aclanthology.org/2021.acl-long.313/"
+  arxiv: "https://arxiv.org/abs/2105.13562"
+  code: "https://github.com/Exploration-Lab/CJPE"

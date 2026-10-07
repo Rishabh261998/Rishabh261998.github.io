@@ -1,0 +1,48 @@
+- title: "Information capacity of transformers"
+  org: "Purdue University"
+  mentor: "Prof. Abulhair Saparov"
+  start: "Sep 2024"
+  end: "Jun 2025"
+  status: "Under review at ICLR"
+  featured: true
+  tags: ["PyTorch", "GPT-2", "Scaling laws", "Bayesian optimization"]
+  summary: "Empirical scaling laws for transformer memorization capacity: how the smallest model that can perfectly memorize a set of facts grows with the number of facts, along both width and depth."
+  bullets:
+    - "Trained GPT-2-style transformers on synthetic knowledge-graph triples with no exploitable structure, so that high accuracy is only possible through memorization, and measured the minimum hidden dimension and the maximum memorizable dataset size across a wide range of dataset sizes."
+    - "Ran rigorous hyperparameter search with Bayesian optimization and deterministic full-batch training to make sure each model reached its true capacity, then compared candidate scaling forms with statistical lack-of-fit tests."
+    - "Extended the analysis to structured data (symmetric and two-hop relations), skewed power-law fact distributions and a second architecture family to test generality, and identified the minimal viable dimension for resource-efficient training at a given data size."
+
+- title: "Open-domain QA on WikiHow FAQs"
+  org: "The Ohio State University"
+  mentor: "Prof. Huan Sun"
+  start: "May 2022"
+  end: "2023"
+  tags: ["RoBERTa", "T5", "BLOOM", "Question answering"]
+  summary: "Research internship on a WikiHow FAQ question-answering dataset for the Cooking and DIY categories."
+  bullets:
+    - "Studied how continued pre-training on the custom corpus affects downstream fine-tuning for question-type classification, re-ranking, machine reading comprehension and intent recognition with RoBERTa-large."
+    - "Used T5-large and BLOOM for abstractive closed-book open-domain QA on the WikiHow FAQ dataset."
+
+- title: "Semantic segmentation of legal documents via rhetorical roles"
+  org: "IIT Kanpur"
+  mentor: "Prof. Ashutosh Modi & Prof. Arnab Bhattacharya"
+  start: "Apr 2021"
+  end: "Aug 2021"
+  status: "Published at NLLP @ EMNLP 2022"
+  tags: ["BERT", "BiLSTM-CRF", "Multi-task learning", "Legal NLP"]
+  summary: "A new corpus of 100 Indian legal judgments annotated with rhetorical roles, the largest such corpus, and a model that segments documents into those roles."
+  bullets:
+    - "Proposed MTL-BiLSTM-CRF with BERT sentence encodings and label shift as an auxiliary task, reaching an F1 of 0.71 and beating sequence-classification baselines."
+    - "Showed that rhetorical-role structure improves downstream judgment prediction."
+
+- title: "Court judgment prediction and explanation (ILDC for CJPE)"
+  org: "IIT Kanpur"
+  mentor: "Prof. Ashutosh Modi & Prof. Arnab Bhattacharya"
+  start: "Mar 2020"
+  end: "Jun 2020"
+  status: "Published at ACL 2021"
+  tags: ["XLNet", "Explainable AI", "Legal NLP"]
+  summary: "Built a corpus of 32,000 Indian Supreme Court judgments and tackled the open problem of predicting and explaining court decisions."
+  bullets:
+    - "Benchmarked 14 state-of-the-art document classification methods; the best hierarchical XLNet model reached 78% accuracy."
+    - "Compared explainability methods (Integrated Gradients, occlusion, attention) against gold explanations annotated by legal experts using ROUGE, BLEU and METEOR."

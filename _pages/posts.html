@@ -1,13 +1,22 @@
 ---
-layout: archive
-title: "Posts"
+title: "Blog"
+subtitle: "Longer-form notes. The 2021 series documents my Google Summer of Code work on ArviZ; newer writing on voice-agent testing lives on the Cekura blog."
 permalink: /posts/
-author_profile: true
+redirect_from:
+  - /blog/
+  - /year-archive/
 ---
-
-{% include base_path %}
-
-
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li class="post-list__item">
+    <a href="{{ post.url | relative_url }}">
+      <span class="post-list__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <span>
+        <span class="post-list__title">{{ post.title }}</span>
+        <p class="post-list__excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+      </span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+<p style="margin-top:28px"><a class="section__link" href="{{ '/#writing' | relative_url }}">See external writing on the home page {% include icon.html name="arrow" %}</a></p>
